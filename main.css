@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    font-family: "Source Code Pro", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+    background-color: rgb(33, 33, 38);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+
+.intro {
+    width: 800px;
+    padding: 50px;
+    line-height: 1.7; 
+}
+
+.work {
+    border: 2px solid #ccc; /* Default border color */
+    border-radius: 25px; /* Rounded borders */
+    padding: 20px;
+    margin: 5px;
+    transition: border-color 0.1s ease; /* Smooth transition for the border color */
+}
+
+.work:hover {
+    border-color: rgb(255, 191, 0); /* Border color on hover */
+}
+
+.work a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.work a:hover h3 {
+    color: rgb(255, 191, 0); /* Optional: Change text color on hover for the link title */
+}
+#head {
+    font-weight: bold;
+}
