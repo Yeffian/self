@@ -45,6 +45,12 @@ body {
 .work a:hover h3 {
     color: rgb(255, 191, 0); /* Optional: Change text color on hover for the link title */
 }
+
+.writing {
+    margin-top: 20px; /* Adds spacing above the writing section */
+    clear: both;      /* Ensures it moves below floated elements if any */
+}
+
 #head {
     font-weight: bold;
 }
